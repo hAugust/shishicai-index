@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="font/iconfont.css">
+    <meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+    <script>
+        window.onload = window.onresize = function(){
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+
+            var _html = document.getElementsByTagName('html')[0];
+            view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+        }
+    </script>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="box">
+        <!-- 头部 -->
+        <div class="head clearfix">
+            <h3>网站首页</h3>
+        </div>
+        <div class="banner">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <script src="bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+
+            <div id="myCarousel" class="carousel slide"> <ol class="carousel-indicators">
+
+<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+
+<li data-target="#myCarousel" data-slide-to="1"></li> <li data-target="#myCarousel" data-slide-to="2"></li>
+
+</ol>
+
+<div class="carousel-inner"> <div class="item active">
+<img src="images/banner.jpg" alt="第一张"> </div>
+
+<div class="item">
+
+<img src="images/banner.jpg" alt="第二张"> </div>
+
+<div class="item">
+
+<img src="images/banner.jpg" alt="第三张"> </div>
+
+</div>
+<script>
+    $('#myCarousel').carousel({
+    interval : 1500,
+    pause : 'hover',
+    });
+</script>
+
+
+
+
+</div>
+
+
+
+
+
+            <!-- <ul class="fenye">
+                <li><span class="iconfont icon-yuanquan"></span></li>
+                <li><span class="iconfont icon-yk_yuanquan_fill"></span></li>
+                <li><span class="iconfont icon-yuanquan"></span></li>
+                <li><span class="iconfont icon-yuanquan"></span></li>
+            </ul> -->
+        </div>
+        <!-- 公告 -->
+        <div class="Notice clearfix">
+            <p class="gao">恭喜<span class="mou">xxx</span>河内分彩喜中<span class="yuan">1000</span>元</p>
+        </div>
+        <!-- 服务 -->
+        <div class="service clearfix">
+            <ul class="fenlei">
+                <li class="lei1"><a href="###"><img src="images/caigou.jpg"></a></li>
+                <li class="lei2"><a href="###"><img src="images/chongzhi.jpg"></a></li>
+                <li class="lei3"><a href="###"><img src="images/tixian.jpg"></a></li>
+            </ul>
+        </div>
+        <!-- 热门彩种 -->
+        <div class="re clearfix">
+            <div class="re_left">
+            <h4><span class="tiao"></span>热门彩种</h4>
+            </div>
+            <div class="re_right">
+                <a href="###" class="more">MORE</a>
+                <a href="###" class="iconfont icon-arrowRight-fill"></a>
+                <a href="###" class="iconfont icon-arrowRight-fill"></a>
+            </div>
+        </div>
+        <div class="duo clearfix">
+            <ul class="zhong">
+                <li class="jiang1">
+                    <a href="###"><img src="images/jiang.jpg"></a>
+                    <h5>江苏快三</h5>
+                    <p>火爆开售</p>
+                </li>
+                <li class="yin">
+                    <a href="###"><img src="images/yin.jpg"></a>
+                    <h5>印尼五分彩</h5>
+                    <p>24小时开售</p>
+                </li>
+                <li class="he">
+                    <a href="###"><img src="images/he.jpg"></a>
+                    <h5>河内五分彩</h5>
+                    <p>五分钟一期</p>
+                </li>
+                <li class="chong">
+                    <a href="###"><img src="images/chong.jpg"></a>
+                    <h5>重庆时时彩</h5>
+                    <p>每天120期</p>
+                </li>
+                <li class="xin">
+                 <a href="###"><img src="images/xin.jpg"></a>
+                    <h5>新疆时时彩</h5>
+                    <p>2元赢1800</p>
+                </li>
+                <li class="shi">
+                    <a href="###"><img src="images/shi.jpg"></a>
+                    <h5>十一运夺金</h5>
+                    <p>每天开奖78次</p>
+                </li>
+                <li class="guang">
+                    <a href="###"><img src="images/guang.jpg"></a>
+                    <h5>广东11选5</h5>
+                    <p>任选玩法</p>
+                </li>
+                <li class="xi">
+                    <a href="###"><img src="images/xi.jpg"></a>
+                    <h5>江西11选5</h5>
+                    <p>十一分一期</p>
+                </li>
+            </ul>
+        </div>
+        <!-- 底部 -->
+        <div class="footer">
+            <ul class="foot">
+                <li class="shouye">
+                    <a href="###" class="iconfont icon-shouye"></a>
+                    <h5>购彩大厅</h5>
+                </li>
+                <li class="hezuo">
+                    <a href="###" class="iconfont icon-7"></a>
+                    <h5>合买跟单</h5>
+                </li>
+                <li class="kaijiang">
+                    <a href="###" class="iconfont icon-shouye1"></a>
+                    <h5>开奖公告</h5>
+                </li>
+                <li class="huiyuan">
+                    <a href="###" class="iconfont icon-qun"></a>
+                    <h5>会员中心</h5>
+                </li>
+            </ul>
+        </div>
+
+
+
+    </div>
+</body>
+</html>
